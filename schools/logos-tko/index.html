@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>香港小学插班报告 · 真道書院（小學）· 插班P4</title>
+<style>
+  :root{
+    --ink:#1a2233; --sub:#5a6678; --line:#e3e8f0; --bg:#f6f8fb;
+    --brand:#1f7a5c; --brand-soft:#e6f4ee;
+    --good:#137a4b; --good-soft:#e6f5ee;
+    --bad:#b23a48; --bad-soft:#fbecee;
+    --warn:#a8700a; --warn-soft:#fdf4e3;
+    --neutral:#5a6678; --neutral-soft:#eef1f5;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,"PingFang HK","PingFang SC","Microsoft YaHei",sans-serif;
+    color:var(--ink);background:var(--bg);line-height:1.7;font-size:15px;}
+  .wrap{max-width:880px;margin:0 auto;padding:32px 28px 80px;}
+  header.hero{background:linear-gradient(135deg,#1f7a5c,#2fa07a);color:#fff;border-radius:16px;
+    padding:30px 32px;margin-bottom:26px;box-shadow:0 6px 20px rgba(31,122,92,.18);}
+  header.hero h1{margin:0 0 4px;font-size:26px;}
+  header.hero .en{font-size:15px;opacity:.9;font-weight:400;}
+  header.hero .meta{margin-top:14px;font-size:13px;opacity:.92;display:flex;flex-wrap:wrap;gap:6px 18px;}
+  header.hero .meta b{font-weight:600;}
+  section{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px 26px;margin-bottom:20px;}
+  section > h2{margin:0 0 16px;font-size:19px;display:flex;align-items:center;gap:10px;
+    padding-bottom:10px;border-bottom:2px solid var(--brand-soft);}
+  section > h2 .num{background:var(--brand);color:#fff;width:28px;height:28px;border-radius:8px;
+    display:inline-flex;align-items:center;justify-content:center;font-size:14px;flex:0 0 auto;}
+  h3{font-size:15px;margin:18px 0 8px;color:var(--brand);}
+  p{margin:8px 0;}
+  table.facts{width:100%;border-collapse:collapse;font-size:14px;}
+  table.facts td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;}
+  table.facts td.k{width:130px;color:var(--sub);font-weight:600;background:var(--bg);}
+  .pc{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  .pc .col{border-radius:10px;padding:14px 16px;}
+  .pc .pros{background:var(--good-soft);}
+  .pc .cons{background:var(--bad-soft);}
+  .pc h3{margin-top:0;}
+  .pc .pros h3{color:var(--good);} .pc .cons h3{color:var(--bad);}
+  .pc ul{margin:6px 0;padding-left:18px;} .pc li{margin:6px 0;}
+  .quote-card{border:1px solid var(--line);border-left:4px solid var(--neutral);border-radius:8px;
+    padding:12px 14px;margin:10px 0;background:#fcfdff;}
+  .quote-card.pos{border-left-color:var(--good);}
+  .quote-card.neg{border-left-color:var(--bad);}
+  .quote-card.neu{border-left-color:var(--neutral);}
+  .quote-card .q{font-size:14px;margin:0 0 8px;white-space:pre-line;}
+  .quote-card .src{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:4px 12px;}
+  .tag{display:inline-block;font-size:11px;padding:1px 8px;border-radius:10px;font-weight:600;}
+  .tag.pos{background:var(--good-soft);color:var(--good);}
+  .tag.neg{background:var(--bad-soft);color:var(--bad);}
+  .tag.neu{background:var(--neutral-soft);color:var(--neutral);}
+  .tag.cred{background:var(--brand-soft);color:var(--brand);}
+  .callout{border-radius:8px;padding:12px 14px;margin:12px 0;font-size:14px;}
+  .callout.infer{background:var(--neutral-soft);border-left:4px solid var(--neutral);}
+  .callout.warn{background:var(--warn-soft);border-left:4px solid var(--warn);}
+  .callout.good{background:var(--good-soft);border-left:4px solid var(--good);}
+  .callout b{display:block;margin-bottom:2px;}
+  table.exam{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0;}
+  table.exam th,table.exam td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top;}
+  table.exam th{background:var(--brand-soft);color:var(--brand);}
+  ol.actions{counter-reset:a;list-style:none;padding:0;}
+  ol.actions li{position:relative;padding:10px 12px 10px 44px;border:1px solid var(--line);
+    border-radius:8px;margin:8px 0;background:#fcfdff;}
+  ol.actions li::before{counter-increment:a;content:counter(a);position:absolute;left:12px;top:10px;
+    width:22px;height:22px;background:var(--brand);color:#fff;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;font-size:12px;}
+  ol.sources{font-size:13px;color:var(--sub);padding-left:20px;}
+  ol.sources li{margin:5px 0;word-break:break-all;}
+  ol.sources a{color:var(--brand);}
+  .tbd{color:#b23a48;font-style:italic;}
+  sup a{color:var(--brand);text-decoration:none;font-size:11px;}
+  .updated{font-size:12px;color:var(--sub);text-align:right;margin-top:24px;}
+  .disclaimer{font-size:12px;color:var(--sub);background:#fff;border:1px dashed var(--line);
+    border-radius:10px;padding:14px 16px;margin-top:16px;}
+  @media print{
+    body{background:#fff;font-size:12px;}
+    .wrap{max-width:100%;padding:0;}
+    section,header.hero{box-shadow:none;break-inside:avoid;}
+    header.hero{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    section{border:1px solid #ccc;}
+    a{color:inherit;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <h1>香港華人基督教聯會真道書院（小學）</h1>
+  <div class="en">HKCCCU Logos Academy (Primary) · 将军澳调景岭 · 直资一条龙</div>
+  <div class="meta">
+    <span><b>类别</b> 直资·一条龙(11年制)</span>
+    <span><b>性别</b> 男女校</span>
+    <span><b>宗教</b> 基督教</span>
+    <span><b>校网</b> 西贡(将军澳)</span>
+    <span><b>课程</b> DSE + IBDP 双轨</span>
+    <span><b>目标插班</b> P4</span>
+  </div>
+</header>
+
+<div class="callout good" style="background:#e6f4ee;border-left:4px solid #1f7a5c;margin-bottom:20px">
+  <b>✅ 数据真实性说明</b>
+  本报告所有事实均来自<b>真实工具抓取并附可点击源链接</b>。小红书口碑为已登录实抓的真实笔记（链接可点开复核），并区分「家长亲历」与「顾问机构整理」。抓不到的字段标注「待核实」，无任何臆造。
+</div>
+
+<!-- 1 速览 -->
+<section>
+  <h2><span class="num">1</span> 学校速览</h2>
+  <table class="facts">
+    <tr><td class="k">官方全名</td><td>香港華人基督教聯會真道書院 / HKCCCU Logos Academy<sup><a href="https://zh.wikipedia.org/zh-hant/香港華人基督教聯會真道書院" target="_blank">[1]</a></sup></td></tr>
+    <tr><td class="k">创校年份</td><td>小学部 2002 年，中学部 2003 年<sup><a href="https://zh.wikipedia.org/zh-hant/香港華人基督教聯會真道書院" target="_blank">[1]</a></sup></td></tr>
+    <tr><td class="k">资助类别</td><td><b>直资</b>、<b>一条龙</b>（全港独有 11 年一贯制）<sup><a href="https://zh.wikipedia.org/zh-hant/香港華人基督教聯會真道書院" target="_blank">[1]</a></sup><sup><a href="https://sosomama.com/profile/logos-2" target="_blank">[4]</a></sup></td></tr>
+    <tr><td class="k">性别 / 宗教</td><td>男女校 / 基督教（香港华人基督教联会办学）<sup><a href="https://sosomama.com/profile/logos-2" target="_blank">[4]</a></sup></td></tr>
+    <tr><td class="k">小学学费</td><td><b>约 HK$28,600 / 年</b>（2025-26，分 10 期，设学费减免计划）<sup><a href="https://logos.edu.hk/tc/primary-1-fs1" target="_blank">[2]</a></sup><sup><a href="https://www.facebook.com/dunnsedu/posts/" target="_blank">[5]</a></sup></td></tr>
+    <tr><td class="k">教学语言</td><td>英文为主、繁体中文；<b>P4 起数学改英文授课、中文科改普通话</b>（见第8节，重要）<sup><a href="https://www.xiaohongshu.com/search_result/68ca387500000000130160ee?xsec_token=ABRAsSswCPk058TMlwl2Uyazyqw43z2vq6hPx8tEp0DHU=" target="_blank">[9]</a></sup><sup><a href="https://sosomama.com/profile/logos-2" target="_blank">[4]</a></sup></td></tr>
+    <tr><td class="k">规模</td><td>全校约 30 班、教师约 159 人；小学每级班数较多（家长称每班上限 42 人）<sup><a href="https://www.youofferhk.com/school/the-hong-kong-chinese-christian-churches-union-logos-academy-sai-kung" target="_blank">[6]</a></sup><sup><a href="https://www.xiaohongshu.com/search_result/666d81fd000000000d00d2ed?xsec_token=ABP7k5X4YTZrRu5ka6GSshsu9rG0gBntfCaxyzUQ2ZB00=" target="_blank">[8]</a></sup></td></tr>
+    <tr><td class="k">校训 / 理念</td><td>校训「求真行道，達善臻美」；办学理念「愛真理、愛主愛人、愛生命」<sup><a href="https://zh.wikipedia.org/zh-hant/香港華人基督教聯會真道書院" target="_blank">[1]</a></sup><sup><a href="https://www.facebook.com/dunnsedu/posts/" target="_blank">[5]</a></sup></td></tr>
+    <tr><td class="k">升中</td><td>一条龙直升本校中学部（无呈分试压力）；通达阶段选 DSE 或 IBDP<sup><a href="https://zh.wikipedia.org/zh-hant/香港華人基督教聯會真道書院" target="_blank">[1]</a></sup></td></tr>
+    <tr><td class="k">地址 / 电话</td><td>第一校舍(小学)将军澳调景岭岭光街 5 号 · (852) 2337 2126<sup><a href="https://zh.wikipedia.org/zh-hant/香港華人基督教聯會真道書院" target="_blank">[1]</a></sup></td></tr>
+    <tr><td class="k">现任校长</td><td><span class="tbd">待核实</span></td></tr>
+    <tr><td class="k">官网</td><td>https://logos.edu.hk</td></tr>
+  </table>
+</section>
+
+<!-- 2 教育理念 -->
+<section>
+  <h2><span class="num">2</span> 教育理念</h2>
+  <h3>11 年一贯制（核心特色）</h3>
+  <p>全港独有的<b>「十一年一贯制」</b>直资一条龙：<b>基础阶段（2年，初小）→ 拓展阶段（5年，高小至初中）→ 通达阶段（4年，高中）</b>。学生<b>无需呈分试</b>，减轻升小升中压力。通达阶段第 2 年（约中四）后可选 DSE 或 IBDP。<sup><a href="https://zh.wikipedia.org/zh-hant/香港華人基督教聯會真道書院" target="_blank">[1]</a></sup><sup><a href="https://www.xiaohongshu.com/search_result/6902d4d70000000007034b23?xsec_token=ABz0KAo6N1YHz0rz0OY0ibrJkLG9IeekIhTlnvrgBD5nk=" target="_blank">[7]</a></sup></p>
+  <h3>「平民 IB 院校」</h3>
+  <div class="callout good">
+    <b>定位</b>
+    以相对实惠的直资学费提供 DSE + IBDP 双轨，被家长称「平民 IB 院校」。按 SOSOMAMA，<b>IB 成绩位居香港前十，按 DSE 成绩属 Band 1 中学</b>。⚠️ 注意：IBDP 受教育局规限，<b>最多 1/3 学生可选</b>，超额需筛选。<sup><a href="https://sosomama.com/profile/logos-2" target="_blank">[4]</a></sup><sup><a href="https://www.xiaohongshu.com/search_result/68ca387500000000130160ee?xsec_token=ABRAsSswCPk058TMlwl2Uyazyqw43z2vq6hPx8tEp0DHU=" target="_blank">[9]</a></sup>
+  </div>
+  <h3>课程与价值观</h3>
+  <p>基督教全人教育；重视阅读（小学设阅读时间、中学 DEAR Time）、资优教育（设资优班及支援班）、自主探究、服务学习（高中到内地/东南亚服务）、国际视野（境外交流、游学）。设线上功课与电子课本。<b>不设常识科，分为科学科与社会科</b>。<sup><a href="https://www.xiaohongshu.com/search_result/68ca387500000000130160ee?xsec_token=ABRAsSswCPk058TMlwl2Uyazyqw43z2vq6hPx8tEp0DHU=" target="_blank">[9]</a></sup><sup><a href="https://www.xiaohongshu.com/search_result/6902d4d70000000007034b23?xsec_token=ABz0KAo6N1YHz0rz0OY0ibrJkLG9IeekIhTlnvrgBD5nk=" target="_blank">[7]</a></sup></p>
+</section>
+
+<!-- 3 学术与升学 -->
+<section>
+  <h2><span class="num">3</span> 学术与升学</h2>
+  <h3>升学路径</h3>
+  <p>一条龙直升本校中学部，无需另外升中。中学按 DSE 成绩属 <b>Band 1</b>，IB 成绩香港前十（家长帖转述「历来十届毕业生合计出过 11 名 IB 状元」，<span class="tbd">建议向校方核实</span>）。<sup><a href="https://sosomama.com/profile/logos-2" target="_blank">[4]</a></sup><sup><a href="https://www.xiaohongshu.com/search_result/6902d4d70000000007034b23?xsec_token=ABz0KAo6N1YHz0rz0OY0ibrJkLG9IeekIhTlnvrgBD5nk=" target="_blank">[7]</a></sup></p>
+  <h3>毕业生去向（家长帖转述，待官方核实）</h3>
+  <p>约 60–70% 升香港本地大学，30–40% 前往海外名校（含牛津、剑桥、帝国理工等）。<span class="tbd">此数据来自小红书家长整理，非官方，仅供参考。</span><sup><a href="https://www.xiaohongshu.com/search_result/6902d4d70000000007034b23?xsec_token=ABz0KAo6N1YHz0rz0OY0ibrJkLG9IeekIhTlnvrgBD5nk=" target="_blank">[7]</a></sup></p>
+  <div class="callout warn">
+    <b>需留意的争议点（家长二面亲历提及）</b>
+    有家长指出对真道的常见负面评价：<b>11 年制下「好学生都去考 IB，所以 DSE 成绩似乎一般」</b>。该家长的看法是「看父母怎么定位——若纯拼藤校/学医，本就该看 SPCC 等神校或顶级国际学校」。<sup><a href="https://www.xiaohongshu.com/search_result/66ee61140000000012010c2f?xsec_token=ABu51qzp-VOLy6LsJcV8XN1K64pLyL5jBtaEjmrS9DUgU=" target="_blank">[10]</a></sup>
+  </div>
+  <h3>评估文化</h3>
+  <p>每年五学段，多次形成性评估 + 两次总结性评估，采用「标准参照」而非「常模参照」（不排名比较），并提供家长评估报告。<sup><a href="https://sosomama.com/profile/logos-2" target="_blank">[4]</a></sup></p>
+</section>
+
+<!-- 4 课程特色 -->
+<section>
+  <h2><span class="num">4</span> 课程特色</h2>
+  <p>
+  • <b>DSE + IBDP 双轨</b>，中四后分流，灵活衔接本地与国际升学。<br>
+  • <b>无呈分试</b>，一条龙减压。<br>
+  • <b>阅读文化</b>：小学阅读时间、中学 DEAR Time、阅读马拉松/图书日/书展。<br>
+  • <b>资优教育</b>：设资优班及支援班。<br>
+  • <b>服务学习 + 国际视野</b>：境外交流（小学起到广州等地）、高中到内地/东南亚服务、澳洲英国游学。<br>
+  • <b>科学科 + 社会科</b>（不设常识科）；线上功课 + 电子课本；每日放学前设「自学时段」。<br>
+  • <b>多元体艺</b>：跳绳、跆拳道、琵琶、乌克丽丽等兴趣班。
+  <sup><a href="https://www.xiaohongshu.com/search_result/6902d4d70000000007034b23?xsec_token=ABz0KAo6N1YHz0rz0OY0ibrJkLG9IeekIhTlnvrgBD5nk=" target="_blank">[7]</a></sup><sup><a href="https://www.xiaohongshu.com/search_result/68ca387500000000130160ee?xsec_token=ABRAsSswCPk058TMlwl2Uyazyqw43z2vq6hPx8tEp0DHU=" target="_blank">[9]</a></sup>
+  </p>
+</section>
+
+<!-- 5 社区口碑 -->
+<section>
+  <h2><span class="num">5</span> 社区口碑（小红书实抓）</h2>
+  <p style="font-size:13px;color:var(--sub)">以下均为<b>已登录小红书实抓的真实笔记</b>，链接可点开复核。区分「家长亲历」与「顾问机构整理」。</p>
+
+  <h3>反复出现的主题</h3>
+  <p>① <b>性价比高</b>「平民 IB」；② <b>位置偏</b>（调景岭，离深圳较远）但有地铁；③ <b>笔试题量多但不算难、数学有拔高题</b>；④ <b>面试随意像聊天</b>；⑤ 争议在「11 年制 / DSE 成绩一般」；⑥ 校风基督教、老师有关怀。</p>
+
+  <div class="quote-card pos">
+    <p class="q">「考完跟我说『妈妈没想象中那么难，就是题量有点多』。学校中规中矩的大小，中学部就在旁边（游泳池等设施在那边）。调景岭地铁站，观塘线和将军澳线交汇，出行方便。位置有点偏，插班人数比热门学校少一点，希望竞争没那么激烈。」（插 P5）</p>
+    <div class="src">
+      <span class="tag pos">家长亲历</span><span class="tag cred">可信度：高</span>
+      <span>小红书 Queenie · 2025-06-13</span>
+      <span><a href="https://www.xiaohongshu.com/search_result/684c16600000000021002d09?xsec_token=ABdGnCpqHZ7qSTfpOEIkDtiY4yxDsHlmt3P_8sfcZoam8=" target="_blank">原帖</a></span>
+    </div>
+  </div>
+  <div class="quote-card neu">
+    <p class="q">「这个学校的班级是我见过最多的，每个班不可超过 42 人，见过插班生也是最多的。」（评论区：有家长收到邮件+电话面试通知，也有人没收到通知）</p>
+    <div class="src">
+      <span class="tag neu">家长亲历</span><span class="tag cred">可信度：中</span>
+      <span>小红书 · 2024-06-15</span>
+      <span><a href="https://www.xiaohongshu.com/search_result/666d81fd000000000d00d2ed?xsec_token=ABP7k5X4YTZrRu5ka6GSshsu9rG0gBntfCaxyzUQ2ZB00=" target="_blank">原帖</a></span>
+    </div>
+  </div>
+  <div class="quote-card neg">
+    <p class="q">「很多人对真道的负面评价是 11 年制度，并且好的学生都去考 IB，所以 DSE 成绩似乎一般……如果单纯要拼藤校和学医，恐怕根本不会把真道当重点。」基督教学校关怀好，下暴雨老师还一直感谢来面试。</p>
+    <div class="src">
+      <span class="tag neg">家长亲历(含争议)</span><span class="tag cred">可信度：高</span>
+      <span>小红书 吉力在香港 · 2024-09-21</span>
+      <span><a href="https://www.xiaohongshu.com/search_result/66ee61140000000012010c2f?xsec_token=ABu51qzp-VOLy6LsJcV8XN1K64pLyL5jBtaEjmrS9DUgU=" target="_blank">原帖</a></span>
+    </div>
+  </div>
+</section>
+
+<!-- 6 优缺点 -->
+<section>
+  <h2><span class="num">6</span> 优缺点总结</h2>
+  <div class="pc">
+    <div class="col pros">
+      <h3>✓ 优点</h3>
+      <ul>
+        <li><b>性价比极高</b>：约 2.86 万/年享 DSE+IB 双轨<sup><a href="https://logos.edu.hk/tc/primary-1-fs1" target="_blank">[2]</a></sup></li>
+        <li><b>一条龙无呈分试</b>：免升中压力，11 年贯通<sup><a href="https://zh.wikipedia.org/zh-hant/香港華人基督教聯會真道書院" target="_blank">[1]</a></sup></li>
+        <li><b>IB 强</b>：IB 香港前十、DSE Band1<sup><a href="https://sosomama.com/profile/logos-2" target="_blank">[4]</a></sup></li>
+        <li><b>升学双轨灵活</b>：中四后选 DSE 或 IB</li>
+        <li><b>不排名</b>：标准参照评估、重阅读与服务学习<sup><a href="https://sosomama.com/profile/logos-2" target="_blank">[4]</a></sup></li>
+        <li><b>面试相对轻松</b>：家长反映像聊天<sup><a href="https://www.xiaohongshu.com/search_result/63889703000000002203abaa?xsec_token=AB7pMb9ZUHqOIJhtL3rDn6S0QrxdXZnV1NZThp5_-xBtA=" target="_blank">[11]</a></sup></li>
+      </ul>
+    </div>
+    <div class="col cons">
+      <h3>✗ 需留意</h3>
+      <ul>
+        <li><b>位置偏</b>：调景岭，离市区/深圳较远<sup><a href="https://www.xiaohongshu.com/search_result/684c16600000000021002d09?xsec_token=ABdGnCpqHZ7qSTfpOEIkDtiY4yxDsHlmt3P_8sfcZoam8=" target="_blank">[7b]</a></sup></li>
+        <li><b>IBDP 名额限 1/3</b>：想读 IB 需竞争筛选<sup><a href="https://www.xiaohongshu.com/search_result/68ca387500000000130160ee?xsec_token=ABRAsSswCPk058TMlwl2Uyazyqw43z2vq6hPx8tEp0DHU=" target="_blank">[9]</a></sup></li>
+        <li><b>DSE 成绩争议</b>：尖子走 IB，DSE 一般<sup><a href="https://www.xiaohongshu.com/search_result/66ee61140000000012010c2f?xsec_token=ABu51qzp-VOLy6LsJcV8XN1K64pLyL5jBtaEjmrS9DUgU=" target="_blank">[10]</a></sup></li>
+        <li><b>班级大</b>：每班上限 42 人（家长口碑）<sup><a href="https://www.xiaohongshu.com/search_result/666d81fd000000000d00d2ed?xsec_token=ABP7k5X4YTZrRu5ka6GSshsu9rG0gBntfCaxyzUQ2ZB00=" target="_blank">[8]</a></sup></li>
+        <li><b>P4 起数学转英文</b>：插班需适应英文数学</li>
+        <li><b>电子课堂</b>：家长面试会问能否接受</li>
+      </ul>
+    </div>
+  </div>
+  <div class="callout good" style="margin-top:14px">
+    <b>适合什么家庭/孩子（插 P4 视角）</b>
+    适合：① 想要<b>高性价比国际化双轨教育</b>、不愿付国际学校天价；② 认同基督教全人教育、不追求纯应试排名；③ 接受电子教学与 11 年一贯制；④ 住将军澳/港岛东/九龙东、能接受调景岭通勤。重视将来走 IB 的家庭尤其匹配（但需留意 IB 名额竞争）。
+  </div>
+</section>
+
+<!-- 7 插班空缺与考试 -->
+<section>
+  <h2><span class="num">7</span> 插班空缺与考试（P4）</h2>
+  <div class="callout good">
+    <b>插班机会（直资，机会相对透明）</b>
+    真道<b>接受小一至小六插班</b>（P4 在范围内）。2025 年的一个申请窗口为 <b>2025-10-15 至 11-14</b>（入学 2026 年）；另有 6 月前后的插班批次（家长帖显示 5 月底提交、很快收考试通知）。<b>务必致电核实当年 P4 空缺与申请窗口</b>：(852) 2337 2126。<sup><a href="https://www.xiaohongshu.com/search_result/6902d4d70000000007034b23?xsec_token=ABz0KAo6N1YHz0rz0OY0ibrJkLG9IeekIhTlnvrgBD5nk=" target="_blank">[7]</a></sup><sup><a href="https://www.xiaohongshu.com/search_result/684c16600000000021002d09?xsec_token=ABdGnCpqHZ7qSTfpOEIkDtiY4yxDsHlmt3P_8sfcZoam8=" target="_blank">[7b]</a></sup>
+  </div>
+  <h3>笔试格式（家长亲历）</h3>
+  <div class="callout infer">
+    <b>笔试：中、数、英三科，各约半小时</b>
+    据家长亲历：中、英考卷<b>无作文，只有知识题，较简单</b>（不太拉开差距）；<b>数学因 11 年压缩 12 年课程，有拔高题</b>——一位插班生反映「约有 5 道题是从未学过的」。整体「题量偏多」，不熟题型要多花时间。<sup><a href="https://www.xiaohongshu.com/search_result/63889703000000002203abaa?xsec_token=AB7pMb9ZUHqOIJhtL3rDn6S0QrxdXZnV1NZThp5_-xBtA=" target="_blank">[11]</a></sup><sup><a href="https://www.xiaohongshu.com/search_result/684c16600000000021002d09?xsec_token=ABdGnCpqHZ7qSTfpOEIkDtiY4yxDsHlmt3P_8sfcZoam8=" target="_blank">[7b]</a></sup>
+  </div>
+</section>
+
+<!-- 8 面试详解 + 备考 P4 -->
+<section>
+  <h2><span class="num">8</span> 面试详解 + 备考资料 · 插班 P4（重点）</h2>
+
+  <h3>面试流程：两轮（顾问机构整理）</h3>
+  <div class="callout infer">
+    <b>来源类型说明</b>：以下两轮流程来自<b>升学顾问机构整理的笔记（非家长亲历）</b>，与下方家长亲历互为补充，<b>以学校当年实际安排为准</b>。<sup><a href="https://www.xiaohongshu.com/search_result/68ca387500000000130160ee?xsec_token=ABRAsSswCPk058TMlwl2Uyazyqw43z2vq6hPx8tEp0DHU=" target="_blank">[9]</a></sup>
+  </div>
+  <p>
+  <b>第一轮（小朋友，小组面试）</b>：约 10 人一组，30–40 分钟。<br>
+  ・<b>学术考核</b>：书写自己名字、认读简单中英文词语、基本加减法、听读题（动物连线、物件分类）。<br>
+  ・<b>小组游戏</b>：传豆袋、「老师说」、「扮安静」、恐龙卡（模仿恐龙动作）、按指示迅速组队跑到老师面前、碰冻游戏、Tip Toe（安静走到指定位置）、模仿动物。<br>
+  <b>第二轮（亲子面试）</b>：家长与孩子一同出席，围绕：对「11 年一条龙学制」的看法、孩子生活习惯与日常照顾、家庭关系与亲子互动、家校合作的理解与期望。
+  </p>
+
+  <h3>家长亲历的真实面试题（可信度高）</h3>
+  <div class="quote-card pos">
+    <p class="q">【孩子面试】可自选粤语/普通话/英语；很简短像聊天，全程约 5 分钟。问题如：「为什么你的英文这么好？」中途切广东话「我可以听一下你说广东话吗？」
+【家长面试，4 道原题】
+① 你的孩子比同龄人成熟、学术也不错，你能不能接受孩子【跳级】？
+② 你们通过什么渠道知道我们学校、为什么选择我们？
+③ 你们在目前班级会不会觉得学科太简单、同班孩子太幼稚？
+④ 你们能接受【电子课堂】吗？
+（全场不超过 15 分钟，感觉很随意）</p>
+    <div class="src">
+      <span class="tag pos">家长亲历</span><span class="tag cred">可信度：高</span>
+      <span>小红书 · 2022-12-02（插四年级）</span>
+      <span><a href="https://www.xiaohongshu.com/search_result/63889703000000002203abaa?xsec_token=AB7pMb9ZUHqOIJhtL3rDn6S0QrxdXZnV1NZThp5_-xBtA=" target="_blank">原帖</a></span>
+    </div>
+  </div>
+  <div class="quote-card pos">
+    <p class="q">【二面，家长+孩子一起，两位老师】先一起 warm up → 老师单独和孩子玩游戏 → 家长进教室聊、孩子在后面填工作纸。
+家长被问：① 对真道 11 年制度怎么看、认不认可？② 怎么看待孩子的优点和缺点？
+（评论：现在基本都会通过游戏考核学术；二面结束有派小礼物）</p>
+    <div class="src">
+      <span class="tag pos">家长亲历</span><span class="tag cred">可信度：高</span>
+      <span>小红书 吉力在香港 · 2024-09-21</span>
+      <span><a href="https://www.xiaohongshu.com/search_result/66ee61140000000012010c2f?xsec_token=ABu51qzp-VOLy6LsJcV8XN1K64pLyL5jBtaEjmrS9DUgU=" target="_blank">原帖</a></span>
+    </div>
+  </div>
+
+  <div class="callout warn">
+    <b>⚠️ P4 关键：语言政策转折点</b>
+    据顾问整理：<b>P3 起科学科以英文授课；P4 起数学科改以英文授课、中文科改以普通话授课</b>。插班 P4 意味着孩子要<b>直接适应英文数学</b>——这是内地/本地公校转入最大的适应点。<sup><a href="https://www.xiaohongshu.com/search_result/68ca387500000000130160ee?xsec_token=ABRAsSswCPk058TMlwl2Uyazyqw43z2vq6hPx8tEp0DHU=" target="_blank">[9]</a></sup>
+  </div>
+
+  <h3>P4 笔试备考</h3>
+  <table class="exam">
+    <tr><th style="width:80px">科目</th><th>P4 备考重点</th><th>依据</th></tr>
+    <tr><td><b>数学</b><br>(重点)</td><td>四则混合、分数小数、周长面积、应用题；<b>务必练英文数学（P4起英文授课）</b>+ 提前接触<b>拔高题</b>（11年压缩课程，会有未学过的题型）</td><td>家长称数学有约5道没学过的题<sup><a href="https://www.xiaohongshu.com/search_result/63889703000000002203abaa?xsec_token=AB7pMb9ZUHqOIJhtL3rDn6S0QrxdXZnV1NZThp5_-xBtA=" target="_blank">[11]</a></sup></td></tr>
+    <tr><td><b>英文</b></td><td>语法/词汇/阅读知识题为主（家长称无作文）；口语对答（面试可用英文，要能自然聊天）</td><td>笔试无作文、面试像聊天<sup><a href="https://www.xiaohongshu.com/search_result/63889703000000002203abaa?xsec_token=AB7pMb9ZUHqOIJhtL3rDn6S0QrxdXZnV1NZThp5_-xBtA=" target="_blank">[11]</a></sup></td></tr>
+    <tr><td><b>中文</b><br>(繁体)</td><td>词语/阅读知识题（无作文）；繁体字；可兼练普通话（P4中文转普教）</td><td>繁体中文 + 普教中<sup><a href="https://sosomama.com/profile/logos-2" target="_blank">[4]</a></sup></td></tr>
+  </table>
+
+  <h3>面试备考建议</h3>
+  <p>
+  <b>孩子</b>：练中英（粤/普可选）自然对答与自我介绍；适应<b>小组游戏</b>（听指令、轮流、合作、模仿动作、保持安静）——这些考的是专注、社交与服从指令，而非学术高深。<br>
+  <b>家长</b>：务必准备好回答——是否接受<b>跳级</b>、是否接受<b>电子课堂</b>、<b>对 11 年一条龙制的看法与认同</b>、为何选真道、孩子优缺点、家校合作期望。<b>态度上要表达认同学校理念</b>（这是真道家长面试的核心考点）。
+  </p>
+</section>
+
+<!-- 9 行动清单 + 来源 -->
+<section>
+  <h2><span class="num">9</span> 行动清单（插 P4）</h2>
+  <ol class="actions">
+    <li><b>致电校务处查 P4 空缺与申请窗口</b>：(852) 2337 2126，问清当年 P4 是否有位、笔面试时间。</li>
+    <li><b>核实关键官方数据</b>：现任校长、小学班级人数、IB 状元/升学比例（家长帖数据需官方确认）。</li>
+    <li><b>P4 备考主攻英文数学</b>：P4 起数学英文授课 + 有拔高题，这是最大门槛；同时练英文口语对答。</li>
+    <li><b>准备家长面试表述</b>：跳级、电子课堂、对 11 年制的认同、为何选真道——提前想好。</li>
+    <li><b>练小组面试软技能</b>：听指令、轮流合作、模仿、保持安静等游戏化考核。</li>
+    <li><b>实地参观/简介会</b>：感受调景岭通勤与校园（位置偏，先确认通勤可接受）。</li>
+    <li><b>平行多报</b>：直资名校竞争大，建议同时报其他将军澳/港岛东学校作 backup。</li>
+  </ol>
+
+  <h3 style="margin-top:22px">信息来源（均可点击复核）</h3>
+  <ol class="sources">
+    <li>[1] 维基百科 · 香港華人基督教聯會真道書院：<a href="https://zh.wikipedia.org/zh-hant/香港華人基督教聯會真道書院" target="_blank">链接</a>（访问 2026-06-29）</li>
+    <li>[2] 真道书院官网 · 小一学费页：<a href="https://logos.edu.hk/tc/primary-1-fs1" target="_blank">logos.edu.hk/tc/primary-1-fs1</a></li>
+    <li>[4] SOSOMAMA · 真道书院档案（Band/学制/评估/学费，经浏览器抓取）：<a href="https://sosomama.com/profile/logos-2" target="_blank">sosomama.com/profile/logos-2</a></li>
+    <li>[5] 梓峰教育 FB（转载官方简介：学费/校训/办学理念/报名）：<a href="https://www.facebook.com/dunnsedu/posts/" target="_blank">facebook.com/dunnsedu</a></li>
+    <li>[6] 有OFFER YouOfferHK · 真道书院详情（班数/教师/校园面积）：<a href="https://www.youofferhk.com/school/the-hong-kong-chinese-christian-churches-union-logos-academy-sai-kung" target="_blank">链接</a></li>
+    <li>[7] 小红书 · 「25/26真道书院插班空位」香港葫芦妈 2025-10-30（学制/升学/插班时间）：<a href="https://www.xiaohongshu.com/search_result/6902d4d70000000007034b23?xsec_token=ABz0KAo6N1YHz0rz0OY0ibrJkLG9IeekIhTlnvrgBD5nk=" target="_blank">原帖</a></li>
+    <li>[7b] 小红书 · 「香港插班考试初体验：真道书院」Queenie 2025-06-13（P5笔试/位置/交通）：<a href="https://www.xiaohongshu.com/search_result/684c16600000000021002d09?xsec_token=ABdGnCpqHZ7qSTfpOEIkDtiY4yxDsHlmt3P_8sfcZoam8=" target="_blank">原帖</a></li>
+    <li>[8] 小红书 · 「香港真道书院(小学)插班」2024-06-15（班级/插班生多/通知方式）：<a href="https://www.xiaohongshu.com/search_result/666d81fd000000000d00d2ed?xsec_token=ABP7k5X4YTZrRu5ka6GSshsu9rG0gBntfCaxyzUQ2ZB00=" target="_blank">原帖</a></li>
+    <li>[9] 小红书 · 「真道書院 面試詳解」升學顧問局HK 2025-09-17（<b>两轮流程/小组游戏/语言政策</b>，顾问机构整理）：<a href="https://www.xiaohongshu.com/search_result/68ca387500000000130160ee?xsec_token=ABRAsSswCPk058TMlwl2Uyazyqw43z2vq6hPx8tEp0DHU=" target="_blank">原帖</a></li>
+    <li>[10] 小红书 · 「迎着暴雨完成真道的二面」吉力在香港 2024-09-21（<b>二面流程/家长题/DSE争议</b>，家长亲历）：<a href="https://www.xiaohongshu.com/search_result/66ee61140000000012010c2f?xsec_token=ABu51qzp-VOLy6LsJcV8XN1K64pLyL5jBtaEjmrS9DUgU=" target="_blank">原帖</a></li>
+    <li>[11] 小红书 · 「真道书院的面试，是问能不能接受跳级」2022-12-02（<b>笔试细节/孩子+家长面试4题</b>，家长亲历）：<a href="https://www.xiaohongshu.com/search_result/63889703000000002203abaa?xsec_token=AB7pMb9ZUHqOIJhtL3rDn6S0QrxdXZnV1NZThp5_-xBtA=" target="_blank">原帖</a></li>
+  </ol>
+  <p style="font-size:12px;color:var(--sub)">交叉比对：直资/一条龙/11年制/DSE+IBDP/Band1/校训 —— 维基[1]、SOSOMAMA[4]、官网[2]、顾问与家长帖一致；学费 $28,600 由官网[2]+梓峰[5]互证；面试流程由顾问帖[9]+家长亲历[10][11]互证。</p>
+</section>
+
+<div class="disclaimer">
+  本报告由 AI 综合公开网络信息 + 小红书已登录实抓整理，所有数据均附可点击源链接供复核，<b>仅供择校参考</b>，不构成承诺。学费、空缺、班数、现任校长、IB/升学比例、面试安排等请以学校官方公布为准，报名前务必直接向学校核实。第 8 节「两轮面试流程」来自升学顾问机构整理（非家长亲历），家长亲历部分已分别标注；学校面试形式逐年可能调整。
+</div>
+
+<div class="updated">报告生成日期：2026-06-29 · 香港小学插班情报官 · 目标：真道書院（小學）插班 P4</div>
+
+</div>
+</body>
+</html>
