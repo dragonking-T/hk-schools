@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>香港小学插班报告 · 香港真光中學（小學部）· 插班P4</title>
+<style>
+  :root{
+    --ink:#1a2233; --sub:#5a6678; --line:#e3e8f0; --bg:#f6f8fb;
+    --brand:#9a2d5e; --brand-soft:#f7e9f0;
+    --good:#137a4b; --good-soft:#e6f5ee;
+    --bad:#b23a48; --bad-soft:#fbecee;
+    --warn:#a8700a; --warn-soft:#fdf4e3;
+    --neutral:#5a6678; --neutral-soft:#eef1f5;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,"PingFang HK","PingFang SC","Microsoft YaHei",sans-serif;
+    color:var(--ink);background:var(--bg);line-height:1.7;font-size:15px;}
+  .wrap{max-width:880px;margin:0 auto;padding:32px 28px 80px;}
+  header.hero{background:linear-gradient(135deg,#9a2d5e,#c14d80);color:#fff;border-radius:16px;
+    padding:30px 32px;margin-bottom:26px;box-shadow:0 6px 20px rgba(154,45,94,.18);}
+  header.hero h1{margin:0 0 4px;font-size:26px;}
+  header.hero .en{font-size:15px;opacity:.9;font-weight:400;}
+  header.hero .meta{margin-top:14px;font-size:13px;opacity:.92;display:flex;flex-wrap:wrap;gap:6px 18px;}
+  header.hero .meta b{font-weight:600;}
+  section{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px 26px;margin-bottom:20px;}
+  section > h2{margin:0 0 16px;font-size:19px;display:flex;align-items:center;gap:10px;
+    padding-bottom:10px;border-bottom:2px solid var(--brand-soft);}
+  section > h2 .num{background:var(--brand);color:#fff;width:28px;height:28px;border-radius:8px;
+    display:inline-flex;align-items:center;justify-content:center;font-size:14px;flex:0 0 auto;}
+  h3{font-size:15px;margin:18px 0 8px;color:var(--brand);}
+  p{margin:8px 0;}
+  table.facts{width:100%;border-collapse:collapse;font-size:14px;}
+  table.facts td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;}
+  table.facts td.k{width:130px;color:var(--sub);font-weight:600;background:var(--bg);}
+  .pc{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  .pc .col{border-radius:10px;padding:14px 16px;}
+  .pc .pros{background:var(--good-soft);}
+  .pc .cons{background:var(--bad-soft);}
+  .pc h3{margin-top:0;}
+  .pc .pros h3{color:var(--good);} .pc .cons h3{color:var(--bad);}
+  .pc ul{margin:6px 0;padding-left:18px;} .pc li{margin:6px 0;}
+  .quote-card{border:1px solid var(--line);border-left:4px solid var(--neutral);border-radius:8px;
+    padding:12px 14px;margin:10px 0;background:#fcfdff;}
+  .quote-card.pos{border-left-color:var(--good);}
+  .quote-card.neg{border-left-color:var(--bad);}
+  .quote-card.neu{border-left-color:var(--neutral);}
+  .quote-card .q{font-size:14px;margin:0 0 8px;}
+  .quote-card .src{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:4px 12px;}
+  .tag{display:inline-block;font-size:11px;padding:1px 8px;border-radius:10px;font-weight:600;}
+  .tag.pos{background:var(--good-soft);color:var(--good);}
+  .tag.neg{background:var(--bad-soft);color:var(--bad);}
+  .tag.neu{background:var(--neutral-soft);color:var(--neutral);}
+  .tag.cred{background:var(--brand-soft);color:var(--brand);}
+  .callout{border-radius:8px;padding:12px 14px;margin:12px 0;font-size:14px;}
+  .callout.infer{background:var(--neutral-soft);border-left:4px solid var(--neutral);}
+  .callout.warn{background:var(--warn-soft);border-left:4px solid var(--warn);}
+  .callout.good{background:var(--good-soft);border-left:4px solid var(--good);}
+  .callout b{display:block;margin-bottom:2px;}
+  table.exam{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0;}
+  table.exam th,table.exam td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top;}
+  table.exam th{background:var(--brand-soft);color:var(--brand);}
+  ol.actions{counter-reset:a;list-style:none;padding:0;}
+  ol.actions li{position:relative;padding:10px 12px 10px 44px;border:1px solid var(--line);
+    border-radius:8px;margin:8px 0;background:#fcfdff;}
+  ol.actions li::before{counter-increment:a;content:counter(a);position:absolute;left:12px;top:10px;
+    width:22px;height:22px;background:var(--brand);color:#fff;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;font-size:12px;}
+  ol.sources{font-size:13px;color:var(--sub);padding-left:20px;}
+  ol.sources li{margin:5px 0;word-break:break-all;}
+  ol.sources a{color:var(--brand);}
+  .tbd{color:#b23a48;font-style:italic;}
+  sup a{color:var(--brand);text-decoration:none;font-size:11px;}
+  .updated{font-size:12px;color:var(--sub);text-align:right;margin-top:24px;}
+  .disclaimer{font-size:12px;color:var(--sub);background:#fff;border:1px dashed var(--line);
+    border-radius:10px;padding:14px 16px;margin-top:16px;}
+  @media print{
+    body{background:#fff;font-size:12px;}
+    .wrap{max-width:100%;padding:0;}
+    section,header.hero{box-shadow:none;break-inside:avoid;}
+    header.hero{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    section{border:1px solid #ccc;}
+    a{color:inherit;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <h1>香港真光中學（小學部）</h1>
+  <div class="en">True Light Middle School of Hong Kong (Primary Section) · 别名「大坑真光」</div>
+  <div class="meta">
+    <span><b>类别</b> 私立</span>
+    <span><b>性别</b> 男女校（中学部为女校）</span>
+    <span><b>宗教</b> 基督教</span>
+    <span><b>地区</b> 港岛 · 铜锣湾大坑</span>
+    <span><b>升中</b> 联系 · 香港真光中学(女校,Band1)</span>
+    <span><b>目标插班</b> P4</span>
+  </div>
+</header>
+
+<div class="callout warn" style="background:#fdf4e3;border-left:4px solid #a8700a;margin-bottom:20px">
+  <b>⚠️ 先看这条：孩子性别直接决定这所学校的价值</b>
+  香港真光（小学部）是<b>男女校，但其升中联系的中学部是女校</b>。<br>
+  • <b>女孩</b>：可走「联系」升学路径——中学部每年预留约 25%（约 23 个）学额给小学部，加上自行分配+统一派位，每年约 70–80 名女生升入中学部（Band 1 女校）。<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup><br>
+  • <b>男孩</b>：每班通常仅约 4–5 名男生，<b>升中无法进女校中学部，须另考外校</b>（往绩有圣士提反、皇仁、邓肇坚、筲箕湾官中等）。<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup><br>
+  请据孩子性别判断这条升学逻辑是否成立。本报告按通用整理，性别相关结论已分别标注。
+</div>
+
+<!-- 1 速览 -->
+<section>
+  <h2><span class="num">1</span> 学校速览</h2>
+  <table class="facts">
+    <tr><td class="k">官方全名</td><td>香港真光中學（小學部）/ True Light Middle School of Hong Kong (Primary Section)；俗称「大坑真光」<sup><a href="https://www.schooland.hk/ps/tlmshkps" target="_blank">[2]</a></sup></td></tr>
+    <tr><td class="k">创校年份</td><td>真光源于 1872 年广州；小学部约 1935 年创办，中学部 1948 年在港复校<sup><a href="https://zh.wikipedia.org/zh-hant/香港真光中學" target="_blank">[1]</a></sup></td></tr>
+    <tr><td class="k">资助类别</td><td><b>私立</b>小学（中学部为<b>资助</b>女校）<sup><a href="https://www.schooland.hk/ps/tlmshkps" target="_blank">[2]</a></sup><sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup></td></tr>
+    <tr><td class="k">性别</td><td>男女校（男生每班约 4–5 人）<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup></td></tr>
+    <tr><td class="k">宗教</td><td>基督教（每日早祷，以信仰为德育基础）<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup></td></tr>
+    <tr><td class="k">教学语言</td><td>中英并重；<b>中文科 P1–P3 以普通话授课（普教中）</b><sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup><sup><a href="https://www.schooland.hk/ps/tlmshkps" target="_blank">[2]</a></sup></td></tr>
+    <tr><td class="k">学费</td><td>约 HK$3 万多 / 年（家长口碑，性价比高）；<span class="tbd">官方确切金额待校方核实</span><sup><a href="https://www.xiaohongshu.com/search_result/6a2cced30000000017028ff9?xsec_token=ABpO8YRyEPcJz3ZSq-75NreahQ2uUNvQ7X3T4-BCTAwa0=" target="_blank">[5]</a></sup></td></tr>
+    <tr><td class="k">校训</td><td>爾乃世之光（Thou art the light of the world）<sup><a href="https://zh.wikipedia.org/zh-hant/香港真光中學" target="_blank">[1]</a></sup></td></tr>
+    <tr><td class="k">升中联系</td><td>香港真光中学（女校，Band 1，英中）<sup><a href="https://www.schooland.hk/ss/tlmshk" target="_blank">[7]</a></sup></td></tr>
+    <tr><td class="k">校长</td><td><span class="tbd">现任待核实</span>（2013 专访时为吴佩贞校长）<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup></td></tr>
+    <tr><td class="k">地址 / 电话</td><td>香港铜锣湾大坑道 50 号 · (852) 2576 1762<sup><a href="https://www.schooland.hk/ps/tlmshkps" target="_blank">[2]</a></sup></td></tr>
+  </table>
+  <div class="callout infer">
+    <b>避免混淆：香港有「四间真光」</b>
+    同源 1872 年：① <b>香港真光中学（小学部）← 本报告，大坑</b>；② 九龙真光中学（小学部，九龙塘）；③ 香港真光书院（鸭脷洲，中学）；④ 真光女书院（油尖旺，中学）。另有「香港真光中学附属小学暨幼稚园」为不同收费实体。<sup><a href="https://www.schooland.hk/search/%E9%A6%99%E6%B8%AF%E7%9C%9F%E5%85%89%E4%B8%AD%E5%AD%B8" target="_blank">[8]</a></sup>
+  </div>
+</section>
+
+<!-- 2 教育理念 -->
+<section>
+  <h2><span class="num">2</span> 教育理念</h2>
+  <h3>办学宗旨与「真光精神」</h3>
+  <p>真光提供<b>基督教全人教育</b>，核心是「真光精神」——<b>创造建设、爱群服务、克己牺牲、力求完善</b>，强调学生的品德与做人态度。校训「爾乃世之光」。小学部设有十个教育目标，涵盖体魄、品格到知识层面。<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup><sup><a href="https://zh.wikipedia.org/zh-hant/香港真光中學" target="_blank">[1]</a></sup></p>
+  <h3>教学风格定位</h3>
+  <div class="callout infer">
+    <b>定位（基于校方专访的判断）</b>
+    <b>传统、重品德、不催谷</b>。校方原话：「虽然我们重视学习，但<b>不会催谷</b>，不会用高一册或外国教科书去教学，只因我们觉得如果学生喜欢学习、校园生活愉快，学习能力自然不会低。」百年女校传统，校风以纪律、礼貌、自律自理著称（连男生也被外界评价「特别有纪律、礼貌好」）。<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup>
+  </div>
+  <h3>品德与语文特色</h3>
+  <p>设「隐蔽课程」教品德、驻校辅导主任、每周辅导课与「成长课程」、每日早祷。语文上力求两文三语，<b>P1–P3 普教中</b>（校方花 8 年研发普通话教中文、自编教材）。<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup></p>
+</section>
+
+<!-- 3 学术与升学 -->
+<section>
+  <h2><span class="num">3</span> 学术与升学</h2>
+  <h3>升中路径（核心，按性别分）</h3>
+  <div class="callout good">
+    <b>女生（升学保障强）</b>
+    小学部与女校中学部为<b>「联系」关系</b>：中学部每年预留约 <b>25%（约 23 个学额）</b>给小学部毕业生；连同自行分配 + 统一派位，每年约 <b>70–80 名女生</b>升入香港真光中学（Band 1 英中女校）。<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?target=_blank" target="_blank">[3]</a></sup>
+  </div>
+  <div class="callout warn">
+    <b>男生（须外考）</b>
+    无法升入女校中学部，须另考外校。往绩有港岛名校：圣士提反书院、皇仁书院、圣公会邓肇坚中学、筲箕湾官立中学等，派位成绩理想。<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup>
+  </div>
+  <h3>学术声誉</h3>
+  <div class="callout infer">
+    <b>判断（推断）</b>
+    香港真光中学为<b>Band 1 英中女校</b>、传统名校（名人校友众多），小学部背靠这一升学出口，<b>女生学术升学价值高</b>。小学无官方 Banding，此为综合中学部声誉与升中往绩的推断。<sup><a href="https://www.schooland.hk/ss/tlmshk" target="_blank">[7]</a></sup>
+  </div>
+  <h3>评估文化</h3>
+  <p>传统学校，重视学业基础但明言「不催谷」、不用高一册教材。早祷 + 品德课程贯穿日常。<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup></p>
+</section>
+
+<!-- 4 课程特色 -->
+<section>
+  <h2><span class="num">4</span> 课程特色</h2>
+  <p>
+  • <b>多元智能 + 全方位学习</b>：提供多元化学习经历，让学生在活动中亲身建构知识。<br>
+  • <b>普教中（P1–P3）</b>：自编教材、教材附拼音，打语文根柢。<br>
+  • <b>品德/辅导课程</b>：隐蔽课程、成长课程、每周辅导课、驻校辅导主任、每日早祷。<br>
+  • <b>语言环境</b>：力求两文三语；英文为重点（升中学部为英中）。<br>
+  <span style="font-size:13px;color:var(--sub)">注：以上据校方专访[3]，部分细节年代较早，最新课程以官网/简介会为准。</span>
+  </p>
+</section>
+
+<!-- 5 社区口碑 -->
+<section>
+  <h2><span class="num">5</span> 社区口碑（小红书实抓 + 媒体）</h2>
+  <p style="font-size:13px;color:var(--sub)">来自小红书内地家长真实插班笔记（已登录抓取，2024–2025）+ 校方媒体专访。<b>主观观点，正反并陈</b>，标注平台/时间/倾向/可信度。</p>
+
+  <h3>反复出现的主题</h3>
+  <p>① <b>性价比高</b>：学费约 3 万多/年，远低于国际及多数私立，家长普遍称「性价比挺高」；② <b>考试看重英文与数学</b>，全英文出卷、中文繁体；③ <b>环境老旧但教学质量好、老师专业且严格</b>；④ <b>竞争激烈</b>：2025 年插班「大坑真光超难」；⑤ <b>男生收生疑问</b>（评论区反复有人问「男孩子收吗」）。</p>
+
+  <h3>家长原声（小红书实抓）</h3>
+  <div class="quote-card pos">
+    <p class="q">「上午考<b>大坑真光（香港真光小学部）</b>：9 点到，先笔试，<b>中英数，数学是英文卷，中文是繁体字</b>，笔试约 1 小时；然后<b>小朋友和家长一起面试</b>，老师问小朋友中英文问题，也问家长。感觉<b>真光比较看重英文和数学</b>，环境确实有点旧，但老师很专业，<b>学费一年大概 3 万多，比国际和其他私立便宜很多，性价比挺高</b>。」（评论有人问「大坑真光男孩子收吗」）</p>
+    <div class="src">
+      <span class="tag pos">正面·一手实测</span>
+      <span class="tag cred">可信度：高（亲历）</span>
+      <span>小红书 · 2025-11</span>
+      <span><a href="https://www.xiaohongshu.com/search_result/6a2cced30000000017028ff9?xsec_token=ABpO8YRyEPcJz3ZSq-75NreahQ2uUNvQ7X3T4-BCTAwa0=" target="_blank">原帖</a></span>
+    </div>
+  </div>
+  <div class="quote-card neu">
+    <p class="q">「今天考了真光和圣心私立。<b>真光比较难而且是全英文，中文、数学、英语都有考，笔试完成之后有面试</b>；面试是小朋友和家长一起，有中文英文问题。<b>真光全部都是繁体字，数学也是全英文的</b>。真光环境老旧一些但教学质量很好，老师比较严格，学费比圣心私立便宜。」</p>
+    <div class="src">
+      <span class="tag neu">中性·一手实测</span>
+      <span class="tag cred">可信度：高（亲历）</span>
+      <span>小红书 · 2024-12</span>
+      <span><a href="https://www.xiaohongshu.com/search_result/6932d40c000000001d0385b2?xsec_token=AB1wB6A30B61UDCzpUXi2jIR5e-_5K-LhLaZItn3x-HCc=" target="_blank">原帖</a></span>
+    </div>
+  </div>
+  <div class="quote-card neg">
+    <p class="q">「今年香港插班真的卷，好多内地家庭过来，热门私立和直资都是几百人抢几个位，<b>大坑真光、宝血、嘉诺撒这些都超难</b>，建议多报几家。」</p>
+    <div class="src">
+      <span class="tag neg">提示·竞争激烈</span>
+      <span class="tag cred">可信度：中（观察）</span>
+      <span>小红书 · 2025-12</span>
+      <span><a href="https://www.xiaohongshu.com/search_result/6a2fb140000000000802565d?xsec_token=AB9dFYYM_uS6p0zkbSOfQ2J02WesjdxzdZHlW5fcwoDu0=" target="_blank">原帖</a></span>
+    </div>
+  </div>
+  <div class="quote-card neu">
+    <p class="q">「真光重视学生品格培育，校方致力营造愉快学习环境……不会催谷。外界评价真光男生『特别有纪律、礼貌好、容易相处，也有领导才能』。」</p>
+    <div class="src">
+      <span class="tag neu">中性·媒体专访</span>
+      <span class="tag cred">可信度：中（校方视角）</span>
+      <span>EDUPlus 专访</span>
+      <span><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">原文</a></span>
+    </div>
+  </div>
+</section>
+
+<!-- 6 优缺点 -->
+<section>
+  <h2><span class="num">6</span> 优缺点总结</h2>
+  <div class="pc">
+    <div class="col pros">
+      <h3>✓ 优点</h3>
+      <ul>
+        <li><b>性价比极高</b>：约 3 万多/年，远低于德萃(10万)等私立<sup><a href="https://www.xiaohongshu.com/search_result/6a2cced30000000017028ff9?xsec_token=ABpO8YRyEPcJz3ZSq-75NreahQ2uUNvQ7X3T4-BCTAwa0=" target="_blank">[5]</a></sup></li>
+        <li><b>女生升学路径强</b>：联系 Band1 英中女校，预留 25% 学额<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup></li>
+        <li><b>百年名校、重品德</b>：纪律、礼貌、自律口碑好<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup></li>
+        <li><b>不催谷</b>：传统但不操练，营造愉快学习<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup></li>
+        <li><b>教学质量获家长肯定</b>：老师专业、严格<sup><a href="https://www.xiaohongshu.com/search_result/6932d40c000000001d0385b2?xsec_token=AB1wB6A30B61UDCzpUXi2jIR5e-_5K-LhLaZItn3x-HCc=" target="_blank">[4]</a></sup></li>
+      </ul>
+    </div>
+    <div class="col cons">
+      <h3>✗ 需留意</h3>
+      <ul>
+        <li><b>男生升学受限</b>：升不了女校中学部，须外考<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup></li>
+        <li><b>校舍环境老旧</b>：多位家长提及设施旧<sup><a href="https://www.xiaohongshu.com/search_result/6a2cced30000000017028ff9?xsec_token=ABpO8YRyEPcJz3ZSq-75NreahQ2uUNvQ7X3T4-BCTAwa0=" target="_blank">[5]</a></sup></li>
+        <li><b>插班竞争激烈</b>：2025「大坑真光超难」<sup><a href="https://www.xiaohongshu.com/search_result/6a2fb140000000000802565d?xsec_token=AB9dFYYM_uS6p0zkbSOfQ2J02WesjdxzdZHlW5fcwoDu0=" target="_blank">[6]</a></sup></li>
+        <li><b>考试英文门槛高</b>：中英数全英文卷、中文繁体<sup><a href="https://www.xiaohongshu.com/search_result/6932d40c000000001d0385b2?xsec_token=AB1wB6A30B61UDCzpUXi2jIR5e-_5K-LhLaZItn3x-HCc=" target="_blank">[4]</a></sup></li>
+        <li><b>官方学费/班数/现任校长</b>等数据未公开，需致电核实</li>
+      </ul>
+    </div>
+  </div>
+  <div class="callout good" style="margin-top:14px">
+    <b>适合什么家庭/孩子（插 P4 视角）</b>
+    <b>最适合：女孩</b> + 认同传统基督教品德教育 + 想要高性价比的 Band1 升学出口 + 英文/数学基础不错的家庭。<b>男孩</b>需接受「升中靠外考」再考虑。不太在意校舍新旧、看重教学实质与升学的家庭会觉得很值。
+  </div>
+</section>
+
+<!-- 7 插班空缺与考试 -->
+<section>
+  <h2><span class="num">7</span> 插班空缺与考试（P4）</h2>
+  <div class="callout warn">
+    <b>空缺信息</b>
+    插班/叩门空缺逐年波动且竞争激烈（2025 年家长反映「超难」）。校方一般每年 <b>8–9 月报名、10 月面试</b>；每年 6 月初统一派位结果公布后，会<b>视乎有无学生放弃学位决定是否设叩门阶段</b>。<b>必须致电校务处查 P4 当年空缺</b>：(852) 2576 1762。<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup><sup><a href="https://www.schooland.hk/ps/tlmshkps" target="_blank">[2]</a></sup>
+  </div>
+  <h3>考试与面试流程（小红书一手实测）</h3>
+  <div class="callout good">
+    <b>当日流程（亲历家长 2024–2025 记录）</b>
+    <b>笔试约 1 小时：中、英、数三科，数学是英文卷，中文是繁体字，全英文环境，难度偏高。</b><br>
+    <b>面试：小朋友和家长一起进行</b>，老师问孩子中英文问题，也问家长问题。校方明言面试「主要考小朋友的自理和应变能力」；叩门取录「着重家长诚意」。<sup><a href="https://www.xiaohongshu.com/search_result/6a2cced30000000017028ff9?xsec_token=ABpO8YRyEPcJz3ZSq-75NreahQ2uUNvQ7X3T4-BCTAwa0=" target="_blank">[5]</a></sup><sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup>
+  </div>
+  <h3>所需文件</h3>
+  <p>近两年成绩表/手册、出生证明或护照、香港身份证/签证、住址证明、学生近照、报名费。具体以学校公布为准。</p>
+</section>
+
+<!-- 8 备考资料 P4 -->
+<section>
+  <h2><span class="num">8</span> 备考资料 · 插班 P4（重点）</h2>
+  <div class="callout warn">
+    <b>P4 插班核心策略</b>
+    据一手实测，真光考试<b>全英文、中英数三科、数学英文卷、中文用繁体字</b>，看重英文与数学。备考优先级：<b>英文 ≈ 英文数学 ＞ 繁体中文 ＞ 面试（中英 + 家长同场）</b>。
+  </div>
+  <table class="exam">
+    <tr><th style="width:80px">科目</th><th>P4 考点</th><th>例题方向 / 备考重点</th></tr>
+    <tr>
+      <td><b>英文</b><br>(重点)</td>
+      <td>时态、单复数、介词、连词、形容词比较级；阅读理解(短文+推断)；词汇；cloze；命题/看图作文；口语朗读与对答</td>
+      <td>主攻阅读理解 + 写作 + 口语；真光全英文环境，口语对答要练（面试有英文提问）。每天精读分级读物并复述</td>
+    </tr>
+    <tr>
+      <td><b>数学</b><br>(英文卷)</td>
+      <td>四则混合、因数倍数、分数加减、小数初步、周长面积、时间角度、统计图、多步应用题</td>
+      <td><b>务必用英文练数学</b>（sum/difference/product、perimeter/area、numerator 等术语 + 英文审题）。这是内地生最易失分处</td>
+    </tr>
+    <tr>
+      <td><b>中文</b><br>(繁体)</td>
+      <td>词语运用、量词、部首、阅读理解(记叙)、造句、扩写/短文；<b>繁体字书写</b></td>
+      <td>若孩子用简体，<b>务必补繁体字认读与书写</b>；P1–P3 为普教中，可兼练普通话朗读；按本地 P4 中文程度准备</td>
+    </tr>
+  </table>
+  <h3>面试准备（小朋友 + 家长同场）</h3>
+  <p>
+  <b>孩子</b>：中英文自我介绍；中英文日常问答（家庭、兴趣、最近读的书、favourite subject/food）；看图说话；重点考<b>自理能力与应变</b>，礼貌常规（问好、坐姿、眼神）。<br>
+  <b>家长</b>：会被一同提问。准备表述：认同真光<b>基督教品德教育 + 不催谷</b>理念、了解学校传统、能配合（叩门「着重家长诚意」）。<sup><a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">[3]</a></sup>
+  </p>
+  <h3>推荐练习资源方向（仅类别，非指定书名）</h3>
+  <p>① P4 分级英文阅读理解 + grammar 练习；② 英文数学应用题集（熟悉数学英文术语）；③ 繁体中文 P4 阅读与写作；④ 历届插班/叩门面试题集（中英）；⑤ 英文口语对答练习（面试有英文提问）；⑥ 大量英文分级读物。按 P4 程度到本地书店选取。</p>
+</section>
+
+<!-- 9 行动清单 + 来源 -->
+<section>
+  <h2><span class="num">9</span> 行动清单（插 P4）</h2>
+  <ol class="actions">
+    <li><b>先确认孩子性别下的升学逻辑</b>：女孩→联系升中学部价值高；男孩→须接受外考，再决定是否报。</li>
+    <li><b>致电校务处查 P4 空缺与叩门安排</b>：(852) 2576 1762，问清当年是否收 P4、报名/面试时间、是否设叩门。</li>
+    <li><b>核实官方学费与现任校长</b>：口碑约 3 万多/年，请向学校确认确切数字与缴费方式。</li>
+    <li><b>启动 P4 备考</b>：英文 + 英文数学优先，补繁体中文，练中英口语对答（含家长面谈）。建议提前 2–3 个月。</li>
+    <li><b>参加简介会/校园参观</b>：实地看校舍（家长普遍反映旧）与师生状态，亲身判断。</li>
+    <li><b>准备申请文件</b>：成绩表、出生证、身份证/签证、住址证明、近照、报名费。</li>
+    <li><b>平行多报</b>：2025 年「大坑真光超难」，务必同时报 2–3 所同区私立/资助作 backup（如圣心私立、嘉诺撒系等）。</li>
+  </ol>
+
+  <h3 style="margin-top:22px">信息来源</h3>
+  <ol class="sources">
+    <li>[1] 维基百科 · 香港真光中學：<a href="https://zh.wikipedia.org/zh-hant/香港真光中學" target="_blank">zh.wikipedia.org/zh-hant/香港真光中學</a>（访问 2026-06-29）</li>
+    <li>[2] 升學天地 Schooland · 香港真光中學(小學部) tlmshkps（类别/性别/地址/电话/升中）：<a href="https://www.schooland.hk/ps/tlmshkps" target="_blank">https://www.schooland.hk/ps/tlmshkps</a></li>
+    <li>[3] EDUPlus · 香港真光幼小中專訪（理念/普教中/升中预留25%/面试/不催谷/真光精神）：<a href="https://www.eduplus.hk/edukids/detail.jsp?article_id=696" target="_blank">eduplus.hk（真光专访）</a></li>
+    <li>[4] 小红书 · 「香港小二插班考试（真光 and 圣心私立）」（2024-12，考试全英文/繁体/面试）：<a href="https://www.xiaohongshu.com/search_result/6932d40c000000001d0385b2?xsec_token=AB1wB6A30B61UDCzpUXi2jIR5e-_5K-LhLaZItn3x-HCc=" target="_blank">原帖</a></li>
+    <li>[5] 小红书 · 「大坑真光 + 嘉诺撒圣方济各 + 圣心私立」（2025-11 一手实测，含学费/流程/性价比）：<a href="https://www.xiaohongshu.com/search_result/6a2cced30000000017028ff9?xsec_token=ABpO8YRyEPcJz3ZSq-75NreahQ2uUNvQ7X3T4-BCTAwa0=" target="_blank">原帖</a></li>
+    <li>[6] 小红书 · 「香港插班今年太难了」（2025-12，竞争激烈/大坑真光超难）：<a href="https://www.xiaohongshu.com/search_result/6a2fb140000000000802565d?xsec_token=AB9dFYYM_uS6p0zkbSOfQ2J02WesjdxzdZHlW5fcwoDu0=" target="_blank">原帖</a></li>
+    <li>[7] 升學天地 Schooland · 香港真光中學（女校，升中出口，Band1 英中）：<a href="https://www.schooland.hk/ss/tlmshk" target="_blank">https://www.schooland.hk/ss/tlmshk</a></li>
+    <li>[8] 升學天地 Schooland · 「香港真光中學」搜索（四间真光辨识）：<a href="https://www.schooland.hk/search/%E9%A6%99%E6%B8%AF%E7%9C%9F%E5%85%89%E4%B8%AD%E5%AD%B8" target="_blank">schooland.hk 搜索</a></li>
+  </ol>
+  <p style="font-size:12px;color:var(--sub)">交叉比对：私立/男女校/基督教/大坑道50号/校训「爾乃世之光」/不催谷 —— 维基[1]、Schooland[2]、EDUPlus[3] 一致；考试格式与学费由小红书 2 条独立一手帖[4][5]互证。</p>
+</section>
+
+<div class="disclaimer">
+  本报告由 AI 综合公开网络信息 + 小红书已登录实抓整理，<b>仅供择校参考</b>，不构成承诺。学费、空缺、班数、现任校长、考试格式等关键信息请以学校与教育局官方公布为准，报名前务必直接向学校核实。第 5 节家长口碑为网友主观观点。部分校方专访资料年代较早，最新情况以官网/简介会为准。
+</div>
+
+<div class="updated">报告生成日期：2026-06-29 · 香港小学插班情报官 · 目标：香港真光中學（小學部）插班 P4</div>
+
+</div>
+</body>
+</html>
